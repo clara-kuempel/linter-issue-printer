@@ -1,0 +1,5 @@
+applications:
+ - name: linter-issue-printer
+   memory: 256M
+   host: linter-issue-printer
+   buildpack: staticfile_buildpack

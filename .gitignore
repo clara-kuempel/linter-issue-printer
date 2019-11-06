@@ -1,11 +1,10 @@
 
 # Compiled source #
 ###################
-*.exe
-pkg
+
+
 github.com
 golang.org
 gopkg.in
 .DS_Store
 
-*.test

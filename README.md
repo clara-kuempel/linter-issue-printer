@@ -9,7 +9,7 @@ The project is configured to use `direnv`. Please install and setup `direnv` acc
 ```
 $ brew install direnv
 ```
-then run $ direnv allow
+then run `direnv allow`
 
 ```
 $ direnv allow
@@ -20,5 +20,16 @@ You will also need the Go testing framework Ginkgo and Golang. Please install Gi
 $ go get github.com/onsi/ginkgo/ginkgo
 $ go get github.com/onsi/gomega/...
 ```
-## Usage
 
+## Usage
+Now you can change in the directory `executable` and run the test, if the file is executable.
+```
+$ cd executable
+$ ginkgo
+```
+Open `executable_test.go` to change the file which should be tested. In the function `IsExecutable` you can write the filename as a String input/parameter. With `ginkgo` you can go on with testing.
+```
+Expect(IsExecutable("filename")
+$ ginkgo
+```
+But please consider that the tested file have to be in the `executable` directory.

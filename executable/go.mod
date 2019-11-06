@@ -1,4 +1,4 @@
-module lip.com/module
+module clara.org/lip
 
 go 1.13
 

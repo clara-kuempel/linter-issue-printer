@@ -3,9 +3,11 @@
 ###################
 
 
-github.com
-golang.org
+# github.com
+src/golang.org
 gopkg.in
 .DS_Store
 bin/*
 pkg/*
+src/github.com/onsi/ginkgo
+src/github.com/onsi/gomega

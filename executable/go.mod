@@ -1,4 +1,4 @@
-module clara.org/lip
+module github.com/clara-kuempel/linter-issue-printer
 
 go 1.13
 

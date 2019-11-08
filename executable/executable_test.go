@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "clara.org/lip"
+	. "github.com/clara-kuempel/linter-issue-printer"
 )
 
 var _ = Describe("ExecutableCheck", func() {

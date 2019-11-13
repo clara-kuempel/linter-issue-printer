@@ -1,4 +1,6 @@
 language: go
-script: build.sh
+
 go:
 - '1.13.3'
+
+before_script: cd executable

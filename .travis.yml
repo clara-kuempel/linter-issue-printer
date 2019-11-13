@@ -3,4 +3,14 @@ language: go
 go:
 - '1.13.3'
 
+branches:
+  only:
+    develop
+
 before_script: cd executable
+
+-after_success: 
+  - "git fetch"
+  - "git checkout master"
+  - "git merge travis"
+  - "git push origin master"

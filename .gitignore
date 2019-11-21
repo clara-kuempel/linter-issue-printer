@@ -11,3 +11,4 @@ bin/*
 pkg/*
 src/github.com/onsi/ginkgo
 src/github.com/onsi/gomega
+!.travis.yml

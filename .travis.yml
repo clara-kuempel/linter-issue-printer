@@ -9,7 +9,7 @@ branches:
   only:
     develop
 
-before_script: cd executable
+before_script: cd src/executable
 
 -after_success: 
   - "git fetch"

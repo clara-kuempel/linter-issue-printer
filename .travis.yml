@@ -12,7 +12,7 @@ branches:
 before_script: cd src/executable
 
 -after_success: 
-  - "git fetch"
-  - "git checkout master"
-  - "git merge travis"
-  - "git push origin master"
+  git fetch
+  git checkout master
+  git merge travis
+  git push origin master
